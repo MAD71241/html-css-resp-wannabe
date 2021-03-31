@@ -95,14 +95,17 @@ img {
     width: 100%;
     text-align: center;
   }
+
   hr {
     width: 90%;
     margin: auto;
     background-color: black;
   }
+
   #why .row>.first, #why .row>.second, #why .row>.third {
     margin-top: 40px;
   }
+  
   h1 {
     padding-top: 10px;
   }
