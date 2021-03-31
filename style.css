@@ -71,3 +71,26 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px) {
+  #lezioni .row,  #why .row {
+    background-color: #F2F2CD;
+    width: 100vw;
+  }
+
+  #lezioni .row>.left, #lezioni .row>.right {
+    width: 100%;
+    text-align: center;
+  }
+
+  #steps .row {
+    width: 100vw;
+  }
+
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    width: 100%;
+    text-align: center;
+  }
+
+
+}
